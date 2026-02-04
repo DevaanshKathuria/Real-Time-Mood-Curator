@@ -20,8 +20,8 @@ Follow these steps to set up and run the app on your local machine.
 
 ### 1. Prerequisites
 
+Install Streamlit and other dependencies
 ```bash
-# Install Streamlit and other dependencies
 pip install -r requirements.txt
 You must have Python 3.8+ installed on your system.
 ```
@@ -30,14 +30,14 @@ You must have Python 3.8+ installed on your system.
 
 First, clone the repository (or ensure you have the three files: app.py, model_loader.py, and requirements.txt in a single folder).
 
+Clone the repository
 ```bash
-# Clone the repository
 git clone <repository-url>
 cd <repository-name>
 ```
 
+Create and navigate to the project directory
 ```bash
-# Create and navigate to the project directory
 mkdir Mood_Curator
 cd Mood_Curator
 ```
@@ -46,14 +46,14 @@ cd Mood_Curator
 
 Install all required Python packages (including streamlit, transformers, and torch). It is highly recommended to use a virtual environment (venv).
 
+1. (Optional but recommended) Create and activate a virtual environment
 ```bash
-# 1. (Optional but recommended) Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate  # Use 'venv\Scripts\activate' on Windows Command Prompt
 ```
 
+2. Install dependencies
 ```bash
-# 2. Install dependencies
 pip install -r requirements.txt
 ```
 
